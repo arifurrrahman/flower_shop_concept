@@ -59,3 +59,7 @@ body {
     margin-top: 70px;
     margin-right: 100px;
 }
+.banner-container img{
+    width: 450px;
+    height: 578px;
+}
