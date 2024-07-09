@@ -12,7 +12,7 @@ body {
 }
 
 .banner-container {
-    width: 1250px;
+    width: 1500px;
     height: 650px;
     margin: 0 auto;
     background-color: rgba(229, 84, 115, 0.1);
@@ -52,7 +52,7 @@ body {
     border-radius: 2px;
     background: rgb(229, 84, 115);
     color: rgb(255, 255, 255);
-
+    cursor: pointer;
 }
 
 .banner-image {
