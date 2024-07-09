@@ -1,0 +1,61 @@
+/*----font-styles----*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.banner-container {
+    width: 1250px;
+    height: 650px;
+    margin: 0 auto;
+    background-color: rgba(229, 84, 115, 0.1);
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-msg {
+    width: 450px;
+    height: 400px;
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.banner-msg h1 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 50px;
+    color: rgb(39, 39, 39);
+}
+
+.banner-msg p {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-top: 25px;
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.banner-msg button {
+    width: 120px;
+    height: 50px;
+    margin-top: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+
+}
+
+.banner-image {
+    margin-top: 70px;
+    margin-right: 100px;
+}
